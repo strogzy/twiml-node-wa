@@ -12,7 +12,7 @@ A simple Node app that
 - Create Postman or Curl request to the server url, example:
 ```
 curl -X POST http://localhost:1337/initiate-wa  \
---data-urlencode "to=whatsapp:+111111111" \
---data-urlencode "from=whatsapp:+111111111" 
+--data-urlencode "to=whatsapp:+31XXXXXXXX" \
+--data-urlencode "from=whatsapp:+1XXXXXXXXX" 
 ```
 
