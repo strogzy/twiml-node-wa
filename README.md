@@ -31,5 +31,7 @@ curl -X POST http://localhost:1337/initiate-wa  \
 
 
 ## ToDo:
-- Add parameter handling 
+- Fix state and progression through stages (currently the first question may gets asked twice)
+- Allow to send miltple messages in one stage
+- Allow messages to handle variables
 - Add validation for Twilio signature on every inbound message 
